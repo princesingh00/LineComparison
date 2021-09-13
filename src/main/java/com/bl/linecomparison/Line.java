@@ -13,7 +13,7 @@ public class Line {
         this.y2 = y2;
     }
 
-    public double length() {
+    public Double length() {
         return Math.sqrt((this.x2 - this.x1) * (this.x2 - this.x1) +
                 (this.y2 - this.y1) * (this.y2 - this.y1));
     }
